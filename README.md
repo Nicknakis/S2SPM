@@ -51,8 +51,6 @@ optional arguments:
 
 **--epochs**  &emsp;  number of epochs for training (default: 5K)
 
-**--pretrained**  &emsp;   uses pretrained embeddings for link prediction (default: True)
-
 **--cuda**  &emsp;    CUDA training (default: True)
 
 **--LP**   &emsp;     performs link prediction (default: True)
