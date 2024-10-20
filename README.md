@@ -43,7 +43,7 @@ where ${CUDA} should be replaced by either cu102, cu113, or cu116 depending on y
 
 
 
-## Learning embeddings for signed undirected networks using SLIM-RAA
+## For learning embeddings in Signed Protein-Protein Interaction Networks with S2SPM:
 
 **RUN:** &emsp; ```python main.py```
 
@@ -61,21 +61,15 @@ optional arguments:
 
 **--lr**   &emsp;     learning rate for the ADAM optimizer (default: 0.05)
 
-**--dataset** &emsp;  dataset to apply Skellam Latent Distance Modeling on (default: wiki_elec)
+**--dataset** &emsp;  dataset to apply S2SPM on (default: Sapiens)
 
 **--sample_percentage** &emsp;  sample size network percentage, it should be equal or less than 1 (default: 0.3)
 
-**--reg_strength** &emsp; Regularization strength over the model parameters (default: 0.5 equivalent to normal priors) (ONLY FOR DIRECTED NETWORKS)
 
 
 ### Additional example for learning three-dimensional embeddings running on cpu:
 
-**RUN:** &emsp; ```python main.py --cuda False --D 3 --pretrained False```
-
-## For directed signed networks please use:
-
-**RUN:** &emsp; ```python main_dir.py```
-
+**RUN:** &emsp; ```python main.py --cuda False --D 8 --pretrained False```
 
 
 ### CUDA Implementation
@@ -84,6 +78,5 @@ The code has been primarily constructed and optimized for running in a GPU-enabl
 
 ## Reference
 
-[Characterizing Polarization in Social Networks using the Signed Relational Latent Distance Model](https://proceedings.mlr.press/v206/nakis23a.html), Nikolaos Nakis et al., AISTATS 23
 
 
