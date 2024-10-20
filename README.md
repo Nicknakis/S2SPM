@@ -65,7 +65,7 @@ optional arguments:
 
 
 
-### Additional example for learning three-dimensional embeddings running on cpu:
+### Additional example for learning eight-dimensional embeddings running on cpu:
 
 **RUN:** &emsp; ```python main.py --cuda False --D 8 --pretrained False```
 
