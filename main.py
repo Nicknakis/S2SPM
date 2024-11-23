@@ -28,7 +28,7 @@ parser.add_argument('--epochs', type=int, default=5000, metavar='N',
 
 
 parser.add_argument('--cuda', type=eval, 
-                      choices=[True, False],  default=False,
+                      choices=[True, False],  default=True,
                     help='CUDA training')
 
 
