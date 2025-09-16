@@ -75,6 +75,6 @@ optional arguments:
 The code has been primarily constructed and optimized for running in a GPU-enabled environment, running the code in CPU is significantly slower.
 
 ## Reference
-
+[The signed two-space proximity model for learning representations in protein–protein interaction networks](https://academic.oup.com/bioinformatics/article/41/6/btaf204/8118643), OUP Bioinformatics 2025.
 
 
